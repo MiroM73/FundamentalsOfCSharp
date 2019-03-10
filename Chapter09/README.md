@@ -1,4 +1,4 @@
-Exercises from book "Fundamentals of Computer Programming with C#" Exercise 9: Methods
+Exercises from book "Fundamentals of Computer Programming with C#" Chapter 9: Methods
 
 1. Write a code that by given name prints on the console "Hello, <name>!"
 Example: "Hello, Peter!".
