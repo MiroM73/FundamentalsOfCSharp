@@ -1,4 +1,6 @@
-<H2>Exercises from book "Fundamentals of Computer Programming with C#"</H2><H3>
+<H2>Exercises from book "Fundamentals of Computer Programming with C#"</H2>
+  Official Web Site
+  https://introprogramming.info/
   
 <H3>Chapter 7: Arrays</H3>
 
