@@ -1,4 +1,4 @@
-Exercises from book "Fundamentals of Computer Programming with C#" Exercise 8: Numeral Systems
+Exercises from book "Fundamentals of Computer Programming with C#" Chapter 8: Numeral Systems
 
 1. Convert the numbers 151, 35, 43, 251, 1023 and 1024 to the binary 
 numeral system. 
