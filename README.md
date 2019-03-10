@@ -77,7 +77,7 @@ sort" algorithm.
 sort" algorithm. 
 
 19. Write a program, which finds all prime numbers in the range 
-[1â€¦10,000,000]. 
+[1 ... 10,000,000]. 
 
 20. \* Write a program, which checks whether there is a subset of given 
 array of N elements, which has a sum S. The numbers N, S and the array 
