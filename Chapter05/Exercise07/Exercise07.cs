@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Chapter05
 {
@@ -14,15 +10,17 @@ namespace Chapter05
             //Modified to find the largest number from the entered.
             Console.WriteLine("EX07: The program that finds the greatest of given 5 numbers.\n" +
                 "Modified to find the largest number from the entered.\n");
-            Console.Write("Enter the numbers delimited by space:");            
-            List<int> enteredNumbersList = new List<int>();            
-            foreach (var item in Console.ReadLine().Split(new char[] { ' ' }))
+            Console.Write("Enter the numbers delimited by comma:");            
+            string enteredString = Console.ReadLine();
+            int largestNumber = 0;
+            for (int i = 0; i < enteredString.Split(',').Length; i++)
             {
-                enteredNumbersList.Add(int.Parse(item));
+                if (largestNumber < int.Parse(enteredString.Split(',')[i]))
+                {
+                    largestNumber = int.Parse(enteredString.Split(',')[i]);
+                }
             }
-            int[] enteredNumbers = enteredNumbersList.ToArray();
-            Array.Sort(enteredNumbers);
-            Console.WriteLine("The largest number is: " + enteredNumbers[enteredNumbers.Length - 1]);                       
+            Console.WriteLine(largestNumber);
         }
     }
 }
