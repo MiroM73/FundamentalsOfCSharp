@@ -87,7 +87,8 @@ For example, when http://www.cnn.com/video is passed, the result is:\
 
 14. Write a program that reverses the words in a given sentence without 
 changing punctuation and spaces. For example: "C# is not C++ and 
-PHP is not Delphi"  "Delphi not is PHP and C++ not is C#". 
+PHP is not Delphi" -> "Delphi not is PHP and C++ not is C#". 
+
 15. A dictionary is given, which consists of several lines of text. Each line 
 consists of a word and its explanation, separated by a hyphen: 
 .NET – platform for applications from Microsoft 
@@ -161,7 +162,7 @@ times each one of them occurs in the string.
 
 24. Write a program that reads a string from the console and replaces every 
 sequence of identical letters in it with a single letter (the repeating 
-letter). Example: "aaaaabbbbbcdddeeeedssaa"  "abcdedsa". 
+letter). Example: "aaaaabbbbbcdddeeeedssaa" -> "abcdedsa". 
 
 25. Write a program that reads a list of words separated by commas from the 
 console and prints them in alphabetical order (after sorting). 
