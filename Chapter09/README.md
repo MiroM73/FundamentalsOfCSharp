@@ -54,8 +54,16 @@ method to implement sorting in descending order.
 
 12. Write a method that calculates the sum of two polynomials with integer
 coefficients.  
-Example: (3x^2 + x - 3) + (x - 1) = (3x^2 + 2x - 4).
+```<language>
+Example:
+(3x^2 + x - 3) + (x - 1) = (3x^2 + 2x - 4).
+```
 
 13. \* Write a method that calculates the product of two polynomials with
 integer coefficients.  
-Example: (3x^2 + x - 3) * (x - 1) = (3x^3 - 2x^2 - 4x + 3).  
+```<language>
+Example:
+(3x^2 + x - 3) * (x - 1) = (3x^3 - 2x^2 - 4x + 3).  
+```
+
+
