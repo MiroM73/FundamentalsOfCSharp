@@ -128,6 +128,45 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise16", "Chapter06\Exe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise17", "Chapter06\Exercise17\Exercise17.csproj", "{4914458C-9C8E-4B50-ADC3-8F1E09A7D593}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestZavislosti", "TestZavislosti", "{AAA7E8D3-7C2B-4975-A597-7D2E29949F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise01", "TestZavislosti\Exercise01\Exercise01.csproj", "{291A623C-0E26-41AB-B166-52FE7DD6EBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter10_Recursion", "Chapter10_Recursion", "{B8CC9CE5-ED17-4E13-B5EA-1E0ED5212B2A}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter10\README.md = Chapter10\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter11_Creating_and_Using_Objects", "Chapter11_Creating_and_Using_Objects", "{A3286B33-FFE6-4043-ABE4-1EB35A217DB4}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter11\README.md = Chapter11\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter12_Exception_Handling", "Chapter12_Exception_Handling", "{CD6CD653-B9AB-4402-9D73-C35E09FAF22B}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter12\README.md = Chapter12\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter13_Strings_and_Text_Processing", "Chapter13_Strings_and_Text_Processing", "{92DAC8B4-BA92-400C-A678-24A373DD1FEB}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter13\README.md = Chapter13\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter05_Conditional_Statements", "Chapter05_Conditional_Statements", "{5541FF62-65A7-4DDA-81A5-3BE09567A8DC}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter05\README.md = Chapter05\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise01", "Chapter05\Exercise01\Exercise01.csproj", "{2DBCF44C-E691-4B01-BBC9-3A5A5ADBD4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise02", "Chapter05\Exercise02\Exercise02.csproj", "{767C20CF-4A49-47A6-8DC8-7E5C61CEEC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise03", "Chapter05\Exercise03\Exercise03.csproj", "{9B5A5B36-3AF9-4223-A297-212215CBAEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise05", "Chapter05\Exercise05\Exercise05.csproj", "{CC19FB58-1DED-4C94-84A5-16692A7482A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise06", "Chapter05\Exercise06\Exercise06.csproj", "{F1A80688-78A2-4A1C-A4E6-38EF1FB6B16D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -334,6 +373,30 @@ Global
 		{4914458C-9C8E-4B50-ADC3-8F1E09A7D593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4914458C-9C8E-4B50-ADC3-8F1E09A7D593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4914458C-9C8E-4B50-ADC3-8F1E09A7D593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291A623C-0E26-41AB-B166-52FE7DD6EBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291A623C-0E26-41AB-B166-52FE7DD6EBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291A623C-0E26-41AB-B166-52FE7DD6EBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291A623C-0E26-41AB-B166-52FE7DD6EBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBCF44C-E691-4B01-BBC9-3A5A5ADBD4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBCF44C-E691-4B01-BBC9-3A5A5ADBD4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBCF44C-E691-4B01-BBC9-3A5A5ADBD4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBCF44C-E691-4B01-BBC9-3A5A5ADBD4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767C20CF-4A49-47A6-8DC8-7E5C61CEEC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767C20CF-4A49-47A6-8DC8-7E5C61CEEC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767C20CF-4A49-47A6-8DC8-7E5C61CEEC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767C20CF-4A49-47A6-8DC8-7E5C61CEEC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5A5B36-3AF9-4223-A297-212215CBAEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5A5B36-3AF9-4223-A297-212215CBAEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5A5B36-3AF9-4223-A297-212215CBAEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5A5B36-3AF9-4223-A297-212215CBAEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC19FB58-1DED-4C94-84A5-16692A7482A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC19FB58-1DED-4C94-84A5-16692A7482A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC19FB58-1DED-4C94-84A5-16692A7482A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC19FB58-1DED-4C94-84A5-16692A7482A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A80688-78A2-4A1C-A4E6-38EF1FB6B16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A80688-78A2-4A1C-A4E6-38EF1FB6B16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A80688-78A2-4A1C-A4E6-38EF1FB6B16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A80688-78A2-4A1C-A4E6-38EF1FB6B16D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -389,6 +452,12 @@ Global
 		{6A94A105-5D18-42FB-8735-08E17EFA1E36} = {9EEBC432-7D21-4789-AD0D-4B826AC61C91}
 		{C7319019-F26A-48D2-A5FA-DAEDA853E7ED} = {9EEBC432-7D21-4789-AD0D-4B826AC61C91}
 		{4914458C-9C8E-4B50-ADC3-8F1E09A7D593} = {9EEBC432-7D21-4789-AD0D-4B826AC61C91}
+		{291A623C-0E26-41AB-B166-52FE7DD6EBB5} = {AAA7E8D3-7C2B-4975-A597-7D2E29949F68}
+		{2DBCF44C-E691-4B01-BBC9-3A5A5ADBD4A2} = {5541FF62-65A7-4DDA-81A5-3BE09567A8DC}
+		{767C20CF-4A49-47A6-8DC8-7E5C61CEEC48} = {5541FF62-65A7-4DDA-81A5-3BE09567A8DC}
+		{9B5A5B36-3AF9-4223-A297-212215CBAEE1} = {5541FF62-65A7-4DDA-81A5-3BE09567A8DC}
+		{CC19FB58-1DED-4C94-84A5-16692A7482A9} = {5541FF62-65A7-4DDA-81A5-3BE09567A8DC}
+		{F1A80688-78A2-4A1C-A4E6-38EF1FB6B16D} = {5541FF62-65A7-4DDA-81A5-3BE09567A8DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D4FC2B0-EC4A-4DB9-9CC3-5DDA9C48FDFB}
